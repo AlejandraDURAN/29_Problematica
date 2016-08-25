@@ -29,6 +29,7 @@ nav.navbar{/*Color del nav bar*/
 
 body{
 	background-color: #CEF6E3;
+	font-family: 'Indie Flower';
 }
 iframe{
 	width:100%;
@@ -36,6 +37,10 @@ iframe{
 	border-style: none;
 	margin-top: 2%;
 	border: 0;
+}
+
+a{
+	color:white;
 }
 img{
 	width: 100%;
