@@ -1,17 +1,34 @@
-nav.navbar{
-	background-color: #0C5390;
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+
+nav.navbar{/*Color del nav bar*/
+	background-color: #1AAF28;
+	border: none;
 }
-.navbar-default .navbar-brand { 
-	color: white;	
- 	font-size: 150%;
- }
- .navbar-default .navbar-nav > li > a { 
-  	color: #D7DBDD; 
-  	border-style: none;
- }
+.navbar-default .navbar-brand {/*Color del titulo*/
+    color: white;
+    font-size: 200%;
+    font-family: 'Lobster', cursive;
+}
+.navbar-default .navbar-nav > li > a { /*Color de links*/
+    color: #D7DBDD;
+    font-family: 'Lobster', cursive;
+    font-size: 130%;
+}
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+.navbar-default .navbar-nav > .active > a, /*Fondo de links puntero sobre ellos*/
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #76CB7E;
+    font-family: 'Lobster', cursive;
+}
+
 body{
-	background-color: #CEF6F5;
-	font-family: Verdana;
+	background-color: #CEF6E3;
 }
 iframe{
 	width:100%;
@@ -24,7 +41,7 @@ img{
 	width: 100%;
 }
 footer{
-	background-color: #1C5DAD;
+	background-color:#1AAF28;
 	padding: 1%;
 }
 
@@ -33,7 +50,7 @@ footer{
 }
 
 .icon{
-	color: #0C5390;
+	color: #1AAF28;
 	font-size: 200%;
 	text-align: center; 
 }
@@ -43,7 +60,7 @@ footer{
 }
 
 .caja{
-	background-color: #0C5390;
+	background-color: #1AAF28;
 	width: 60%;
 	margin-left: 20%;
 	color: white;
