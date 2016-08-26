@@ -64,12 +64,16 @@ footer{
 	color: white;
 }
 
+.text-green{
+	color: #1AAF28;
+}
 .caja{
 	background-color: #1AAF28;
-	width: 60%;
-	margin-left: 20%;
+	width: 80%;
+	margin-left: 5%;
 	color: white;
 	padding: 2%;
+	margin-top: 10%;
 }
 
 .mt-8{
@@ -100,4 +104,10 @@ footer{
 	-moz-transform: rotate(-7deg);
 	-ms-transform: rotate(-7deg);
 	transform: rotate(-7deg);
+}
+
+.shadow{
+	width: 70%;
+	text-shadow: 5px 10px 5px black;
+	margin-left: 20%;
 }
